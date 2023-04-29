@@ -59,7 +59,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ### d) Data Preparation Steps
 **STEP-1) Area Selection (Uttarakhand)**
 ![image](https://user-images.githubusercontent.com/56718090/235291566-8d9551b4-c39b-487f-8e30-72acf4c7ddc7.png)
-**STEP-2) Satellite Imagery of Selected Area (Before Forest Fire)**
+**STEP-2) Satellite Imagery of Selected Area (Before Forest Fire)**: Landsat image { jan 2016 to feb 2016 as there was huge forest fire in Uttrakhand in 2016 [2016 Uttarakhand forest fires](https://en.wikipedia.org/wiki/2016_Uttarakhand_forest_fires)
 ![image(1)](https://user-images.githubusercontent.com/56718090/235291574-ce605f5d-ddd4-480f-8d84-e71de3792f9f.png)
 **STEP-3) Satellite Imagery of Selected Area (After Forest Fire)**
 ![image(2)](https://user-images.githubusercontent.com/56718090/235291581-762d4fe2-67b1-479b-ab4d-4584396ae24c.png)
