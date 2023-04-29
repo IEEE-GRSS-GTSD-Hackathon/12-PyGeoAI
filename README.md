@@ -81,6 +81,18 @@ The above steps have to be repeated for different areas and for different interv
 
 <hr>
 
+# Steps for Implementing This Github Repo
+## Prerequisites
+1. Operating System : Ubuntu 22.04
+2. CUDA version : 11.7
+3. Python version : 3.10
+4. GPU VRAM : ~40 GB (We implemented on NVIDIA A100, 40 GB)
+## Steps
+1. Implement the EarthFormer Github Repo (Follow steps in their Github for setting up the EarthFormer Pipeline)
+2. Generate Your Dataset (Using Steps Given Above)
+3. Pre-process the Data
+4. Make Following Changes To The EarthFormer Hyperparameters
+5. Train and Test
 ## References
 1. NBR and dNBR : [USGS.gov Landsat Normalised Burn Ratio](https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio), [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio)
 2. [EarthFormer (Paper)](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf)
