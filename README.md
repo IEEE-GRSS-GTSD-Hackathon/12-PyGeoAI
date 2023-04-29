@@ -17,7 +17,7 @@ Finding solutions to challenges related to urban flood, forest fire, wind speed,
 6. Predict. (🔴 Could not complete due to time contraint)
 
 ## B1. DL Architecture
-EarthFormer
+Transformers are an emerging class of DL algorithms.  Earthformer, a space-time Transformer for Earth system forecasting. It is flexible. We have used it for trying to predict forest fires in our region of interest (Uttarakhand). The architecture is shown below:
 ![image](https://user-images.githubusercontent.com/56718090/235289478-a6fce54d-62e3-4272-8e51-500211cb8461.png)
 (Image Source : [EarthFormer Paper](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf))
 ## A2. Data Preparation
