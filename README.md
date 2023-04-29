@@ -1,5 +1,5 @@
 # 12-PyGeoAI
-We have worked on forest fire nowcasting on Uttarakhand. We have prepared the dataset for Uttarakhand and then trained the EarthFormer model for predictions. We have prepared the dataset for the training, and implemented the EarthFormer on our system. We prepared a script for pre-processing data for feeding into the architecture (`data-prep.py`). But we couldn't fully train the architecture and generate predictions from the training.
+We have worked on forest fire nowcasting in the state of Uttarakhand. We have prepared the dataset for Uttarakhand (using Google Earth Engine, the Google Drive link is given). We have prepared the dataset for the training, and implemented the EarthFormer on our system and tested it on the SEVIR dataset. We prepared a Python script for pre-processing our data for feeding it into the EarthFormer architecture (`data-prep.py`). But we couldn't fully train the architecture and generate predictions from the training.
 
 There are two sections to this README file : Process Documentation and Implementation Documentation.
 # A. Introduction (Process Documentation)
@@ -9,12 +9,12 @@ Finding solutions to challenges related to urban flood, forest fire, wind speed,
 **Prediction of Forest Fires (Nowcasting) using a transformer based Deep Learning architecture called EarthFormer. We have fine-tuned the model and used a dataset manually prepared by us for the assigned ROI of Uttarakhand.**
 
 # B. Methodology
-1. Implement the EarthFormer. 
-2. Test on their dataset. 
-3. Prepare dataset.
-4. Train EarthFormer on Our dataset.
-5. Increase dataset for better predictions, fine-tune EarthFormer.
-6. Predict.
+1. Implement the EarthFormer. (Done)
+2. Test on their dataset. (Done)
+3. Prepare dataset for the state of Uttarakhand using Google Earth Engine. (Done)
+4. Train EarthFormer on Our dataset. (Partially complete)
+5. Increase dataset for better predictions, fine-tune EarthFormer. (Partially complete)
+6. Predict. (Could not complete due to time contraint)
 
 ## B1. DL Architecture
 EarthFormer
