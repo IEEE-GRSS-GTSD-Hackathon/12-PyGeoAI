@@ -73,9 +73,10 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ![image(6)](https://user-images.githubusercontent.com/56718090/235291602-78092320-742e-4733-af35-eca9c64a2648.png)
 **STEP-8) Area Selection for calculating the burnt area stats**
 ![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
+![image](https://user-images.githubusercontent.com/114997244/235296316-e9241d97-adbd-47d7-a745-ec6addba9b62.png)
 **STEP-9) Data Preparation for EarthFormer Architecture**
 Use the `data_prep.py` script to prepare data (you can use the data we prepared from Google Earth Engine, Google Drive Link provided) for the training of architecture. 
-!![image](https://user-images.githubusercontent.com/114997244/235296316-e9241d97-adbd-47d7-a745-ec6addba9b62.png)
+
 
 The above analysis is done for the post fire analysis. In a very similar way we have calculated the NBR from the Sentinel2 imagery from the Feb 2022 at the interval of 10 days till the march 30, 2022 for Uttarakhand. As the DL model mentioned above take the input temporal images and predict the same for the same time interval. 
 
