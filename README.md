@@ -76,6 +76,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 **STEP-8) Area Selection for calculating the burnt area stats**
 ![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
 ![image](https://user-images.githubusercontent.com/114997244/235296316-e9241d97-adbd-47d7-a745-ec6addba9b62.png)
+
 **STEP-9) Data Preparation for EarthFormer Architecture**
 Use the `data_prep.py` script to prepare data (you can use the data we prepared from Google Earth Engine, Google Drive Link provided) for the training of architecture. 
 
