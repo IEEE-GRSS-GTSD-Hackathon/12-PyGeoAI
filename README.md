@@ -1,5 +1,6 @@
 # 12-PyGeoAI
-# A. Introduction
+There are two sections to this README file : Process Documentation and Implementation Documentation.
+# A. Introduction (Process Documentation)
 ### Broad Theme : Climate action 
 Finding solutions to challenges related to urban flood, forest fire, wind speed, drought, ecology, and forest fragmentation (SDG #13)
 ### Assigned Theme and Regoin of Interest
@@ -81,7 +82,7 @@ The above steps have to be repeated for different areas and for different interv
 
 <hr>
 
-# Steps for Implementing This Github Repo
+# Steps for Implementing This Github Repo (Implementation Documentation)
 ## Prerequisites
 1. Operating System : Ubuntu 22.04
 2. CUDA version : 11.7
@@ -89,7 +90,7 @@ The above steps have to be repeated for different areas and for different interv
 4. GPU VRAM : ~40 GB (We implemented on NVIDIA A100, 40 GB)
 ## Steps
 1. Implement the EarthFormer Github Repo (Follow steps in their Github for setting up the EarthFormer Pipeline)
-2. Generate Your Dataset (Using Steps Given Above)
+2. Generate Your Dataset Using [Google Earth Engine](https://earthengine.google.com/) (Using steps given in the Documentation section) using the script provided in this repo (location : ____) or directly use our prepared data (location : _____) 
 3. Pre-process the Data
 4. Make Following Changes To The EarthFormer Hyperparameters
 5. Train and Test
