@@ -1,7 +1,8 @@
 # 12-PyGeoAI
-Climate action – finding solutions to challenges related to urban flood, forest fire, wind speed, drought, ecology, and forest fragmentation (SDG #13)
-
-https://archive.ics.uci.edu/ml/datasets/forest+fires
+### Broad Theme : Climate action 
+Finding solutions to challenges related to urban flood, forest fire, wind speed, drought, ecology, and forest fragmentation (SDG #13)
+### Assigned Theme and Regoin of Interest
+**Prediction of Forest Fires (Nowcasting) using a transformer based Deep Learning architecture called EarthFormer. We have fine-tuned the model and used a dataset manually prepared by us for the assigned ROI of Uttarakhand.**
 
 # Methodology
 1. Implement the EarthFormer.
@@ -22,4 +23,5 @@ B = Breadth of a single image patch
 T = number of images (at T different time intervals) for the particular location.
 
 # Data Sources
-https://gisgeography.com/wildfire-maps-real-time/
+1. https://gisgeography.com/wildfire-maps-real-time/
+2. https://archive.ics.uci.edu/ml/datasets/forest+fires
