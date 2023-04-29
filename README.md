@@ -46,7 +46,7 @@ To benefit from the magnitude of spectral difference, NBR uses the ratio between
 The difference between the pre-fire and post-fire NBR obtained from the images is used to calculate the delta NBR (dNBR or ∆NBR), which then can be used to estimate the burn severity. A higher value of dNBR indicates more severe damage, while areas with negative dNBR values may indicate regrowth following a fire. The formula used to calculate dNBR is illustrated below:
 <center><img src="https://user-images.githubusercontent.com/56718090/235289270-f407ab8a-65ea-47bb-a9f6-4aff93c95a3f.png"></center>
 
-dNBR values can vary from case to case, and so, if possible, interpretation in specific instances should also be carried out through field assessment; in order to obtain the best results. However, the United States Geological Survey (USGS) proposed a classification table to interpret the burn severity, which can be seen below (Table 1).
+dNBR values can vary from case to case, and so, if possible, interpretation in specific instances should also be carried out through field assessment; in order to obtain the best results. However, the [United States Geological Survey (USGS)](https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio) proposed a classification table to interpret the burn severity, which can be seen below (Table 1).
 <center><img src="https://user-images.githubusercontent.com/56718090/235288848-806595d2-b716-40f8-aa54-3bd2582c07b9.png"></center>
 
 (Image Source : [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio))
