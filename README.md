@@ -83,6 +83,7 @@ The above steps have to be repeated for different areas and for different interv
 ### e) DL Model Training and Testing
 
 # B. Observations
+In the selected the region in 2016, 28 % of area was under the high severity. This area needed more attention. Above analysis could be performed for the post-fire monitoring.
 # C. Results
 
 <hr>
