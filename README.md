@@ -9,8 +9,8 @@ Finding solutions to challenges related to urban flood, forest fire, wind speed,
 **Prediction of Forest Fires (Nowcasting) using a transformer based Deep Learning architecture called EarthFormer. We have fine-tuned the model and used a dataset manually prepared by us for the assigned ROI of Uttarakhand.**
 
 # B. Methodology
-1. Implement the EarthFormer. ✅
-2. Test on their dataset. ✅
+1. Implement the EarthFormer. 
+2. Test on their dataset. 
 3. Prepare dataset.
 4. Train EarthFormer on Our dataset.
 5. Increase dataset for better predictions, fine-tune EarthFormer.
