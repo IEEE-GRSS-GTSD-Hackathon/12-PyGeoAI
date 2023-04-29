@@ -105,8 +105,7 @@ Train and Test the model.
 2. Generate Your Dataset Using [Google Earth Engine](https://earthengine.google.com/) (Using steps given in the Documentation section) using the script provided in this repo (location : https://code.earthengine.google.com/9fef0d36f62169e1f6635244e5103732?noload=true) or directly use our prepared data (location : https://drive.google.com/drive/folders/1WnU-wtnK8EumC3U0kvZicrNIW8smUtVF?usp=sharing) 
 3. Pre-process the Data
 4. Make Following Changes To The EarthFormer Hyperparameters
-5. Train and Test
-The model learn to predict areas where forest fires can occur.
+5. Train and Test the model to predict areas where forest fires can occur.
 ## References & Resources
 1. NBR and dNBR : [USGS.gov Landsat Normalised Burn Ratio](https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio), [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio)
 2. EarthFormer : [EarthFormer (Paper)](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf), [EarthFormer Github Repo](https://github.com/amazon-science/earth-forecasting-transformer)
