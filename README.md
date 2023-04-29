@@ -74,6 +74,10 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
 
 The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
+### e) DL Model Training and Testing
+
+# Observations
+# Results
 
 <hr>
 
