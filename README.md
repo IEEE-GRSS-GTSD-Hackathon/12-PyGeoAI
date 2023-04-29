@@ -76,8 +76,8 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
 ### e) DL Model Training and Testing
 
-# Observations
-# Results
+# B. Observations
+# C. Results
 
 <hr>
 
