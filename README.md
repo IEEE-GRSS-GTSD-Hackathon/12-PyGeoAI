@@ -73,7 +73,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ![image(6)](https://user-images.githubusercontent.com/56718090/235291602-78092320-742e-4733-af35-eca9c64a2648.png)
 **STEP-8) Area Selection for Image Export**
 ![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
-** STEP-9) Burnt area stats
+**STEP-9) Burnt area stats**
 !![image](https://user-images.githubusercontent.com/114997244/235296316-e9241d97-adbd-47d7-a745-ec6addba9b62.png)
 
 The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
