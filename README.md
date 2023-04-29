@@ -1,5 +1,5 @@
 # 12-PyGeoAI
-We have worked on forest fire nowcasting on Uttarakhand. We have prepared the dataset for Uttarakhand and then trained the EarthFormer model for predictions.
+We have worked on forest fire nowcasting on Uttarakhand. We have prepared the dataset for Uttarakhand and then trained the EarthFormer model for predictions. We have prepared the dataset for the training, and implemented the EarthFormer on our system. We prepared a script for pre-processing data for feeding into the architecture (`data-prep.py`). But we couldn't fully train the architecture and generate predictions from the training.
 
 There are two sections to this README file : Process Documentation and Implementation Documentation.
 # A. Introduction (Process Documentation)
