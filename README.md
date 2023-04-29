@@ -71,7 +71,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ![image(5)](https://user-images.githubusercontent.com/56718090/235291595-744ae6f0-f3dd-4962-80fc-e3c809af226d.png)
 **STEP-7) Calculated dNBR (Classified)**
 ![image(6)](https://user-images.githubusercontent.com/56718090/235291602-78092320-742e-4733-af35-eca9c64a2648.png)
-**STEP-8) Area Selection for Image Export**
+**STEP-8) Area Selection for calculating the burnt area stats**
 ![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
 **STEP-9) Burnt area stats**
 
