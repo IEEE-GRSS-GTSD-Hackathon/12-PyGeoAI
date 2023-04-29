@@ -17,6 +17,7 @@ EarthFormer
 
 # Data Preparation
 The data that is to be used has to be in the form of single-channel arrays of dimension N x L x B x T. Here, the meanings of the variables ar ethe following:
+
 N = Batch Size
 
 L = Length of a single image patch
