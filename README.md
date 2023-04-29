@@ -32,16 +32,20 @@ For our case, we are taking the following values: L = B = 384, T = 13.
 So, we need to generate single-channel (0-255 or 8 bit) images with each pixel having a value denoting the intensity of fire in the region. We are taking 13 snapshots of the region at time intervals of 5 days. We are calculating the single channel fire intensity using NBR and dNBR.
 
 ## NBR (Normalised Burn Ratio)
-The Normalized Burn Ratio (NBR) is an index designed to highlight burnt areas in large fire zones. The formula is similar to NDVI, except that the formula combines the use of both near infrared (NIR) and shortwave infrared (SWIR) wavelengths.
+This is an index designed to highlight burnt areas in large fire zones. The formula combines the use of both near infrared (NIR) and shortwave infrared (SWIR) wavelengths.
 
-Healthy vegetation shows a very high reflectance in the NIR, and low reflectance in the SWIR portion of the spectrum (Figure 2) - the opposite of what is seen in areas devastated by fire. Recently burnt areas demonstrate low reflectance in the NIR and high reflectance in the SWIR, i.e. the difference between the spectral responses of healthy vegetation and burnt areas reach their peak in the NIR and the SWIR regions of the spectrum.
-![image](https://user-images.githubusercontent.com/56718090/235289287-b2f150b4-77bb-4ccf-abbb-e185707e70c1.png)
+Healthy vegetation shows a very high reflectance in the NIR, and low reflectance in the SWIR portion of the spectrum. This is the opposite of what is seen in areas devastated by fire. Freshly burnt areas show a low reflectance in the NIR and high reflectance in the SWIR, i.e. the difference between the spectral responses of healthy vegetation and burnt areas reach their peak in the NIR and the SWIR regions of the spectrum.
+
 To benefit from the magnitude of spectral difference, NBR uses the ratio between NIR and SWIR bands, according to the formula shown below. A high NBR value indicates healthy vegetation while a low value indicates bare ground and recently burnt areas. Non-burnt areas are normally attributed to values close to zero.
+
+![image](https://user-images.githubusercontent.com/56718090/235289287-b2f150b4-77bb-4ccf-abbb-e185707e70c1.png)
+(Image Source : [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio))
 ## dNBR or ΔNBR (Burn Severity)
 The difference between the pre-fire and post-fire NBR obtained from the images is used to calculate the delta NBR (dNBR or ∆NBR), which then can be used to estimate the burn severity. A higher value of dNBR indicates more severe damage, while areas with negative dNBR values may indicate regrowth following a fire. The formula used to calculate dNBR is illustrated below:
 ![image](https://user-images.githubusercontent.com/56718090/235289270-f407ab8a-65ea-47bb-a9f6-4aff93c95a3f.png)
 dNBR values can vary from case to case, and so, if possible, interpretation in specific instances should also be carried out through field assessment; in order to obtain the best results. However, the United States Geological Survey (USGS) proposed a classification table to interpret the burn severity, which can be seen below (Table 1).
 ![image](https://user-images.githubusercontent.com/56718090/235288848-806595d2-b716-40f8-aa54-3bd2582c07b9.png)
+(Image Source : [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio))
 
 # Data Sources
 1. https://gisgeography.com/wildfire-maps-real-time/
