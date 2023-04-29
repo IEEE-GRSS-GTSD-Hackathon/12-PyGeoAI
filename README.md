@@ -1,4 +1,6 @@
 # 12-PyGeoAI
+We have worked on forest fire nowcasting on Uttarakhand. We have prepared the dataset for Uttarakhand and then trained the EarthFormer model for predictions.
+
 There are two sections to this README file : Process Documentation and Implementation Documentation.
 # A. Introduction (Process Documentation)
 ### Broad Theme : Climate action 
@@ -82,11 +84,11 @@ The above analysis is done for the post fire analysis. In a very similar way we 
 
 The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
 In the selected the region in 2016, 28 % of area was under the high severity. This area needed more attention. Above analysis could be performed for the post-fire monitoring.
+
+**NOTE : `dNBR.txt` file provided has the Google Earth Engine code to calculate the dNBR.**
+
 ### e) DL Model Training and Testing
-
-# B. Observations
-
-# C. Results
+Train and Test the model.
 
 <hr>
 
@@ -102,6 +104,7 @@ In the selected the region in 2016, 28 % of area was under the high severity. Th
 3. Pre-process the Data
 4. Make Following Changes To The EarthFormer Hyperparameters
 5. Train and Test
+The model learn to predict areas where forest fires can occur.
 ## References & Resources
 1. NBR and dNBR : [USGS.gov Landsat Normalised Burn Ratio](https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio), [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio)
 2. EarthFormer : [EarthFormer (Paper)](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf), [EarthFormer Github Repo](https://github.com/amazon-science/earth-forecasting-transformer)
