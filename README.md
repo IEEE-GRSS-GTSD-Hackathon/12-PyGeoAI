@@ -33,6 +33,7 @@ So, we need to generate single-channel (0-255 or 8 bit) images with each pixel h
 ## NBR (Normalised Burn Ratio)
 
 ## dNBR or ΔNBR (Burn Severity)
+![image](https://user-images.githubusercontent.com/56718090/235288848-806595d2-b716-40f8-aa54-3bd2582c07b9.png)
 
 # Data Sources
 1. https://gisgeography.com/wildfire-maps-real-time/
