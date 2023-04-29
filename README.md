@@ -5,8 +5,8 @@ Finding solutions to challenges related to urban flood, forest fire, wind speed,
 **Prediction of Forest Fires (Nowcasting) using a transformer based Deep Learning architecture called EarthFormer. We have fine-tuned the model and used a dataset manually prepared by us for the assigned ROI of Uttarakhand.**
 
 # Methodology
-1. Implement the EarthFormer.
-2. Check on their dataset.
+1. Implement the EarthFormer. ✅
+2. Test on their dataset. ✅
 3. Prepare dataset.
 4. Train EarthFormer on Our dataset.
 5. Increase dataset for better predictions, fine-tune EarthFormer.
@@ -31,6 +31,7 @@ For our case, we are taking the following values: L = B = 384, T = 13.
 So, we need to generate single-channel (0-255 or 8 bit) images with each pixel having a value denoting the intensity of fire in the region. We are taking 13 snapshots of the region at time intervals of 5 days. We are calculating the single channel fire intensity using NBR and dNBR.
 
 ## NBR (Normalised Burn Ratio)
+
 ## dNBR or ΔNBR (Burn Severity)
 
 # Data Sources
@@ -41,5 +42,5 @@ So, we need to generate single-channel (0-255 or 8 bit) images with each pixel h
 
 ### References
 1. NBR and dNBR : https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio, https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio
-2. EarthFormer (Paper) : 
+2. EarthFormer (Paper) : https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf
 3. SEVIR Dataset (Paper) : https://proceedings.neurips.cc/paper/2020/file/fa78a16157fed00d7a80515818432169-Paper.pdf
