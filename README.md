@@ -77,7 +77,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 
 !![image](https://user-images.githubusercontent.com/114997244/235296316-e9241d97-adbd-47d7-a745-ec6addba9b62.png)
 
-The above analysis is done for the post fire analysis. In a very similar way we have calculated the NBR from the Sentinel2 imagery from the Feb 2022 at the interval of 10 days. As the DL model mentioned above take the input temporal images and predict the same for the same time interval. 
+The above analysis is done for the post fire analysis. In a very similar way we have calculated the NBR from the Sentinel2 imagery from the Feb 2022 at the interval of 10 days till the march 30, 2022 for Uttarakhand. As the DL model mentioned above take the input temporal images and predict the same for the same time interval. 
 
 The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
 ### e) DL Model Training and Testing
