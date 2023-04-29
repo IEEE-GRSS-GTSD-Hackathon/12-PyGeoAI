@@ -61,7 +61,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ![image](https://user-images.githubusercontent.com/56718090/235291566-8d9551b4-c39b-487f-8e30-72acf4c7ddc7.png)
 **STEP-2) Satellite Imagery of Selected Area (Before Forest Fire)**: Landsat image ( jan 2016 to feb 2016 ) as there was huge forest fire in [2016 Uttarakhand forest fires](https://en.wikipedia.org/wiki/2016_Uttarakhand_forest_fires)
 ![image(1)](https://user-images.githubusercontent.com/56718090/235291574-ce605f5d-ddd4-480f-8d84-e71de3792f9f.png)
-**STEP-3) Satellite Imagery of Selected Area (After Forest Fire)**
+**STEP-3) Satellite Imagery of Selected Area (After Forest Fire)** : Uttarakhand forest fire started at 2 Feb 2016  and controlled by the may 2nd 2022.
 ![image(2)](https://user-images.githubusercontent.com/56718090/235291581-762d4fe2-67b1-479b-ab4d-4584396ae24c.png)
 **STEP-4) Satellite Imagery of Selected Area (Before Forest Fire, with Cloud Mask Removed)**
 ![image(3)](https://user-images.githubusercontent.com/56718090/235291585-87bdce82-30a8-4174-8f80-8cf5a20395ac.png)
@@ -76,6 +76,8 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 **STEP-9) Burnt area stats**
 
 !![image](https://user-images.githubusercontent.com/114997244/235296316-e9241d97-adbd-47d7-a745-ec6addba9b62.png)
+
+The above analysis is done for the post fire analysis. In a very similar way we have calculated the NBR from the Sentinel2 imagery from the Feb 2022 at the interval of 10 days. As the DL model mentioned above take the input temporal images and predict the same for the same time interval. 
 
 The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
 ### e) DL Model Training and Testing
