@@ -20,6 +20,7 @@ Finding solutions to challenges related to urban flood, forest fire, wind speed,
 Transformers are an emerging class of DL algorithms.  Earthformer, a space-time Transformer for Earth system forecasting. It is flexible. We have used it for trying to predict forest fires in our region of interest (Uttarakhand). The architecture is shown below:
 ![image](https://user-images.githubusercontent.com/56718090/235289478-a6fce54d-62e3-4272-8e51-500211cb8461.png)
 (Image Source : [EarthFormer Paper](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf))
+We have implemented the architecture and tested it on the [SEVIR Website](https://sevir.mit.edu/). We analysed the model to see how the data needs to be prepared for the model. So, that we can prepare our dataset accordingly. Gaining knowledge from this, we wrote a data preparation script.
 ## A2. Data Preparation
 The data that is to be used has to be in the form of single-channel arrays of dimension N x L x B x T. Here, the meanings of the variables ar ethe following:
 
@@ -33,7 +34,7 @@ T = number of images (at T different time intervals) for the particular location
 
 For our case, we are taking the following values: L = B = 384, T = 13.
 
-So, we need to generate single-channel (0-255 or 8 bit) images with each pixel having a value denoting the intensity of fire in the region. We are taking 13 snapshots of the region at time intervals of 5 days. We are calculating the single channel fire intensity using NBR and dNBR.
+So, we need to generate single-channel (0-255 or 8 bit) images with each pixel having a value denoting the intensity of fire in the region. We are taking 13 snapshots of the region at time intervals of 5 days. We are calculating the single channel fire intensity using NBR.
 
 ### a) NBR (Normalised Burn Ratio)
 This is an index designed to highlight burnt areas in large fire zones. The formula combines the use of both near infrared (NIR) and shortwave infrared (SWIR) wavelengths.
@@ -58,7 +59,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 1. SEVIR Dataset (for model testing)
 2. Custom Dataset Prepared from Google Earth Engine
 
-### d) Data Preparation Steps
+### d) Data Preparation Steps (For Custom Uttarakhand dataset)
 **STEP-1) Area Selection (Uttarakhand)**
 ![image](https://user-images.githubusercontent.com/56718090/235291566-8d9551b4-c39b-487f-8e30-72acf4c7ddc7.png)
 **STEP-2) Satellite Imagery of Selected Area (Before Forest Fire)**: Landsat image ( jan 2016 to feb 2016 ) as there was huge forest fire in [2016 Uttarakhand forest fires](https://en.wikipedia.org/wiki/2016_Uttarakhand_forest_fires)
