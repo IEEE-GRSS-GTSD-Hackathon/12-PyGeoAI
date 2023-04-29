@@ -26,6 +26,20 @@ B = Breadth of a single image patch
 
 T = number of images (at T different time intervals) for the particular location.
 
+For our case, we are taking the following values: L = B = 384, T = 13.
+
+So, we need to generate single-channel (0-255 or 8 bit) images with each pixel having a value denoting the intensity of fire in the region. We are taking 13 snapshots of the region at time intervals of 5 days. We are calculating the single channel fire intensity using NBR and dNBR.
+
+## NBR (Normalised Burn Ratio)
+## dNBR or ΔNBR (Burn Severity)
+
 # Data Sources
 1. https://gisgeography.com/wildfire-maps-real-time/
 2. https://archive.ics.uci.edu/ml/datasets/forest+fires
+
+<hr>
+
+### References
+1. NBR and dNBR : https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio, https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio
+2. EarthFormer (Paper) : 
+3. SEVIR Dataset (Paper) : https://proceedings.neurips.cc/paper/2020/file/fa78a16157fed00d7a80515818432169-Paper.pdf
