@@ -1,11 +1,11 @@
 # 12-PyGeoAI
-# Introduction
+# A. Introduction
 ### Broad Theme : Climate action 
 Finding solutions to challenges related to urban flood, forest fire, wind speed, drought, ecology, and forest fragmentation (SDG #13)
 ### Assigned Theme and Regoin of Interest
 **Prediction of Forest Fires (Nowcasting) using a transformer based Deep Learning architecture called EarthFormer. We have fine-tuned the model and used a dataset manually prepared by us for the assigned ROI of Uttarakhand.**
 
-# A. Methodology
+# B. Methodology
 1. Implement the EarthFormer. ✅
 2. Test on their dataset. ✅
 3. Prepare dataset.
@@ -13,7 +13,7 @@ Finding solutions to challenges related to urban flood, forest fire, wind speed,
 5. Increase dataset for better predictions, fine-tune EarthFormer.
 6. Predict.
 
-## A1. DL Architecture
+## B1. DL Architecture
 EarthFormer
 ![image](https://user-images.githubusercontent.com/56718090/235289478-a6fce54d-62e3-4272-8e51-500211cb8461.png)
 (Image Source : [EarthFormer Paper](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf))
@@ -44,10 +44,10 @@ To benefit from the magnitude of spectral difference, NBR uses the ratio between
 (Image Source : [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio))
 ### b) dNBR or ΔNBR (Burn Severity)
 The difference between the pre-fire and post-fire NBR obtained from the images is used to calculate the delta NBR (dNBR or ∆NBR), which then can be used to estimate the burn severity. A higher value of dNBR indicates more severe damage, while areas with negative dNBR values may indicate regrowth following a fire. The formula used to calculate dNBR is illustrated below:
-![image](https://user-images.githubusercontent.com/56718090/235289270-f407ab8a-65ea-47bb-a9f6-4aff93c95a3f.png)
+<center><img src="https://user-images.githubusercontent.com/56718090/235289270-f407ab8a-65ea-47bb-a9f6-4aff93c95a3f.png"></center>
 
 dNBR values can vary from case to case, and so, if possible, interpretation in specific instances should also be carried out through field assessment; in order to obtain the best results. However, the United States Geological Survey (USGS) proposed a classification table to interpret the burn severity, which can be seen below (Table 1).
-![image](https://user-images.githubusercontent.com/56718090/235288848-806595d2-b716-40f8-aa54-3bd2582c07b9.png)
+<center><img src="https://user-images.githubusercontent.com/56718090/235288848-806595d2-b716-40f8-aa54-3bd2582c07b9.png"></center>
 
 (Image Source : [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio))
 
@@ -57,7 +57,7 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 
 <hr>
 
-### References
+## References
 1. NBR and dNBR : [USGS.gov Landsat Normalised Burn Ratio](https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio), [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio)
 2. [EarthFormer (Paper)](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf)
 3. [SEVIR Dataset (Paper)](https://proceedings.neurips.cc/paper/2020/file/fa78a16157fed00d7a80515818432169-Paper.pdf)
