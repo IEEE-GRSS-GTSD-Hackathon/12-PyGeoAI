@@ -95,5 +95,5 @@ The above steps have to be repeated for different areas and for different interv
 5. Train and Test
 ## References
 1. NBR and dNBR : [USGS.gov Landsat Normalised Burn Ratio](https://www.usgs.gov/landsat-missions/landsat-normalized-burn-ratio), [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio)
-2. [EarthFormer (Paper)](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf)
-3. [SEVIR Dataset (Paper)](https://proceedings.neurips.cc/paper/2020/file/fa78a16157fed00d7a80515818432169-Paper.pdf)
+2. EarthFormer : [EarthFormer (Paper)](https://assets.amazon.science/89/ad/cb9c23dd4bb69b8e03bbbecdb4b8/earthformer-exploring-space-time-transformers-for-earth-system-forecasting.pdf), [EarthFormer Github Repo](https://github.com/amazon-science/earth-forecasting-transformer)
+3. SEVIR Dataset : [SEVIR Dataset (Paper)](https://proceedings.neurips.cc/paper/2020/file/fa78a16157fed00d7a80515818432169-Paper.pdf), [SEVIR Website](https://sevir.mit.edu/)
