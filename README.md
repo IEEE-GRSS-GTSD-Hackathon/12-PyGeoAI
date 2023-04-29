@@ -93,7 +93,7 @@ The above steps have to be repeated for different areas and for different interv
 4. GPU VRAM : ~40 GB (We implemented on NVIDIA A100, 40 GB)
 ## Steps
 1. Implement the EarthFormer Github Repo (Follow steps in their Github for setting up the EarthFormer Pipeline)
-2. Generate Your Dataset Using [Google Earth Engine](https://earthengine.google.com/) (Using steps given in the Documentation section) using the script provided in this repo (location : ____) or directly use our prepared data (location : _____) 
+2. Generate Your Dataset Using [Google Earth Engine](https://earthengine.google.com/) (Using steps given in the Documentation section) using the script provided in this repo (location : https://code.earthengine.google.com/9fef0d36f62169e1f6635244e5103732?noload=true) or directly use our prepared data (location : https://drive.google.com/drive/folders/1WnU-wtnK8EumC3U0kvZicrNIW8smUtVF?usp=sharing) 
 3. Pre-process the Data
 4. Make Following Changes To The EarthFormer Hyperparameters
 5. Train and Test
