@@ -52,8 +52,19 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 (Image Source : [UN SPIDER Knowledge Portal](https://un-spider.org/advisory-support/recommended-practices/recommended-practice-burn-severity/in-detail/normalized-burn-ratio))
 
 ### c) Data Sources
-1. https://gisgeography.com/wildfire-maps-real-time/
-2. https://archive.ics.uci.edu/ml/datasets/forest+fires
+1. SEVIR Dataset (for model testing)
+2. Custom Dataset Prepared from Google Earth Engine
+
+### d) Data Preparation Steps
+![image](https://user-images.githubusercontent.com/56718090/235291566-8d9551b4-c39b-487f-8e30-72acf4c7ddc7.png)
+![image(1)](https://user-images.githubusercontent.com/56718090/235291574-ce605f5d-ddd4-480f-8d84-e71de3792f9f.png)
+![image(2)](https://user-images.githubusercontent.com/56718090/235291581-762d4fe2-67b1-479b-ab4d-4584396ae24c.png)
+![image(3)](https://user-images.githubusercontent.com/56718090/235291585-87bdce82-30a8-4174-8f80-8cf5a20395ac.png)
+![image(4)](https://user-images.githubusercontent.com/56718090/235291589-d868922a-3882-45c9-adb8-1fec1db34590.png)
+![image(5)](https://user-images.githubusercontent.com/56718090/235291595-744ae6f0-f3dd-4962-80fc-e3c809af226d.png)
+![image(6)](https://user-images.githubusercontent.com/56718090/235291602-78092320-742e-4733-af35-eca9c64a2648.png)
+![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
+![image(8)](https://user-images.githubusercontent.com/56718090/235291610-9533e131-b623-4c62-a55d-c74e7e930e75.png)
 
 <hr>
 
