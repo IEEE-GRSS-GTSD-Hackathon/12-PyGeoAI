@@ -70,10 +70,10 @@ dNBR values can vary from case to case, and so, if possible, interpretation in s
 ![image(5)](https://user-images.githubusercontent.com/56718090/235291595-744ae6f0-f3dd-4962-80fc-e3c809af226d.png)
 **STEP-7) Calculated dNBR (Classified)**
 ![image(6)](https://user-images.githubusercontent.com/56718090/235291602-78092320-742e-4733-af35-eca9c64a2648.png)
-**STEP-1) Area Selection**
+**STEP-8) Area Selection for Image Export**
 ![image(7)](https://user-images.githubusercontent.com/56718090/235291606-041a9dd0-ef9e-4434-b8d1-9309da8323bc.png)
-**STEP-1) Area Selection**
-![image(8)](https://user-images.githubusercontent.com/56718090/235291610-9533e131-b623-4c62-a55d-c74e7e930e75.png)
+
+The above steps have to be repeated for different areas and for different intervals of time for each of the areas.
 
 <hr>
 
